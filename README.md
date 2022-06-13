@@ -40,10 +40,10 @@ hv cancel
 
 ### last
 
-Get info about the last time entry:
+Get info about the last time entries:
 
 ```shell
-hv last
+hv last <amount>
 ```
 
 ### open

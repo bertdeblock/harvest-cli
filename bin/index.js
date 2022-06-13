@@ -14,8 +14,13 @@ yargs(hideBin(process.argv))
     handler: cancel,
   })
   .command({
-    command: 'last',
+    command: 'last [amount]',
     handler: last,
+    builder: (yargs) =>
+      yargs.positional('amount', {
+        default: 1,
+        type: 'number',
+      }),
   })
   .command({
     command: 'open',
