@@ -12,6 +12,7 @@ Super simple Harvest CLI tool.
 - [stop](#stop)
 - [cancel](#cancel)
 - [last](#last)
+- [open](#open)
 
 ### start
 
@@ -43,4 +44,12 @@ Get info about the last time entry:
 
 ```shell
 hv last
+```
+
+### open
+
+Open the Harvest time entries page:
+
+```shell
+hv open
 ```
