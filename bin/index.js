@@ -5,6 +5,7 @@ import { hideBin } from 'yargs/helpers';
 import cancel from '../lib/commands/cancel.js';
 import last from '../lib/commands/last.js';
 import open from '../lib/commands/open.js';
+import resume from '../lib/commands/resume.js';
 import start from '../lib/commands/start.js';
 import stop from '../lib/commands/stop.js';
 
@@ -25,6 +26,10 @@ yargs(hideBin(process.argv))
   .command({
     command: 'open',
     handler: open,
+  })
+  .command({
+    command: 'resume',
+    handler: resume,
   })
   .command({
     command: 'start',

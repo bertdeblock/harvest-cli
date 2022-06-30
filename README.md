@@ -11,6 +11,7 @@ Super simple Harvest CLI tool.
 - [start](#start)
 - [stop](#stop)
 - [cancel](#cancel)
+- [resume](#resume)
 - [last](#last)
 - [open](#open)
 
@@ -36,6 +37,14 @@ Cancel the last running time entry:
 
 ```shell
 hv cancel
+```
+
+### resume
+
+Resume the last stopped time entry:
+
+```shell
+hv resume
 ```
 
 ### last
